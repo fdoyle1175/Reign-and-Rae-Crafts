@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pebble Art by [Your Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: #004c4c;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            font-size: 1.8em;
+            color: #005555;
+        }
+        .category img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pebble Art by [Your Name]</h1>
+        <p>Crafting art from nature's stones</p>
+    </header>
+
+    <nav>
+        <a href="#coastal">Coastal Themes</a>
+        <a href="#wildlife">Wildlife Themes</a>
+        <a href="#abstract">Abstract Themes</a>
+    </nav>
+
+    <section id="coastal" class="category">
+        <h2>Coastal Themes</h2>
+        <p>Inspired by the tranquility of the ocean, these pieces bring the beauty of the coast to life through pebbles and stones.</p>
+        <img src="coastal1.jpg" alt="Coastal Art 1">
+        <img src="coastal2.jpg" alt="Coastal Art 2">
+    </section>
+
+    <section id="wildlife" class="category">
+        <h2>Wildlife Themes</h2>
+        <p>Featuring animals and natural wildlife scenes, these pebble art pieces capture the essence of the great outdoors.</p>
+        <img src="wildlife1.jpg" alt="Wildlife Art 1">
+        <img src="wildlife2.jpg" alt="Wildlife Art 2">
+    </section>
+
+    <section id="abstract" class="category">
+        <h2>Abstract Themes</h2>
+        <p>Exploring creative and imaginative designs, these abstract pieces showcase the versatility of pebble art.</p>
+        <img src="abstract1.jpg" alt="Abstract Art 1">
+        <img src="abstract2.jpg" alt="Abstract Art 2">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pebble Art by [Your Name]. All Rights Reserved.</p>
+        <p>Contact: <a href="mailto:yourname@example.com" style="color: white;">yourname@example.com</a></p>
+    </footer>
+</body>
+</html>
